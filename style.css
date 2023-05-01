@@ -1,0 +1,119 @@
+@font-face{
+    font-family: norse;
+    src:url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf")
+}
+
+html, body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    display: flex;
+    justify-content:space-between ;
+}
+
+#left{
+    height: 100%;
+    width: 35%;
+    background-image: url("https://images.unsplash.com/photo-1678033382919-fa907632fdda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80");
+    background-position: center;
+}
+#text-container{
+    position: relative;
+    top: 25%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.408);
+    display: flex; 
+    justify-content: center;   
+    align-items: center;
+}
+#logo{
+    height: 80%;
+    position: relative;
+}
+h1{
+    font-family: norse;
+    color:white;
+    font-size:400%;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+#right{
+    height: 100%;
+    width: 65%;
+    background-color: rgb(249, 250, 251);
+
+}
+
+form{
+    background-color: white;
+    box-shadow:0 2px 1px 0 rgba(0, 0, 0, 0.089) ;
+    padding: 10px 200px 30px 50px;
+    flex-direction: column;
+    display: flex;
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+    padding: 100px 100px 30px 50px;
+    font-weight: 550;
+    font-size: 17px;
+
+}
+label{
+    font-family: sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(80, 80, 80);
+    text-transform: uppercase;
+}
+input{
+    display: block;
+    border: 0.5px solid #E5E7EB;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 180px;
+    height: 20px;
+   
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: min(500px, 100%);
+}
+
+button{
+    background-color: #596D48;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    box-shadow:0 3px 1px 0 rgba(0, 0, 0, 0.089) ;
+    margin: 30px 0 0 50px;
+}
+p{
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(103, 121, 89)
+}
+input:focus{
+    border-color: blue;
+    box-shadow:1px 1px 5px black ;
+
+}
+.not-equal{
+    border-color: red;
+}
